@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+		android:defaultValue="1"
+		android:key="prefNumeros"
+		android:entries="@array/nomeNaLista"
+		android:entryValues="@array/valorNaLista"
+		android:title="@string/pref_numeros"
+		android:summary="@string/pref_numeros_summary" />
+	<CheckBoxPreference
+		android:defaultValue="false"
+		android:key="prefYesorno"
+		android:title="Sim ou não?"
+		android:summary="Sumário" />
+	<Preference
+		android:key="buttonok"
+		android:title="OK"
+		android:summary="Fechar tela" />
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:id="@+id/frame"
+	android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+			app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+			app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#eeeeee">
+
+			<EditText
+				android:id="@+id/editText1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true"
+				android:hint="Digite uma url"
+				android:ems="10" >
+			</EditText>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignRight="@+id/editText1"
+				android:id="@+id/go"
+				android:text="Ir" />
+
+			<WebView
+				android:id="@+id/webview"
+				android:layout_below="@+id/editText1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+			/>
+
+			<ProgressBar
+				android:id="@+id/progress"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:visibility="gone"
+			/>
+		</RelativeLayout>
+	</LinearLayout>
+</FrameLayout>

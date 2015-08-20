@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="nomeNaLista">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="tres">Três</item>
+        <item name="4">4</item>
+        <item name="cinco5">Cinco 5</item>
+    </string-array>
+
+	<string-array name="valorNaLista">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="tres">tres</item>
+        <item name="4">4</item>
+        <item name="cinco5">cinco5</item>
+    </string-array> <!-- Só um exemplo de que você pode por qualquer coisa como nome e valor -->
+</resources>

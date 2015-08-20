@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+		<item name="colorPrimary">#00ffff</item>
+        <item name="colorAccent">#0000ff</item>
+        <item name="android:scrollingCache">false</item>
+	</style>
+</resources>

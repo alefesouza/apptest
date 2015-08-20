@@ -1,0 +1,1 @@
+Um simples aplicativo para Android que serve para programadores iniciantes terem uma ideia de como se faz um aplicativo para Android.
